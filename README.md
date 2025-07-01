@@ -82,3 +82,9 @@ networks:
 ```
 docker network create traefik_net
 ```
+
+### Start docker with different environments
+
+```
+docker compose -f docker-compose.dev.yml up -d
+```
