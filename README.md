@@ -76,3 +76,9 @@ networks:
   traefik_net:
     external: true
 ```
+
+### Create treffik network
+
+```
+docker network create traefik_net
+```
